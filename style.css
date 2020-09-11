@@ -1,0 +1,71 @@
+body {
+	height: 100vh;
+	padding: 0px;
+	margin: 0px;
+}
+
+.container {
+
+	width: 100vw;
+	height: 100vh;
+	background-image: url("background.jpeg");
+	background-size: cover;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.beatbox {
+	width: 500px;
+	height: 500px;
+	background-color: black;
+    border-radius: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 50px;
+}
+
+.beat {
+	color: white;
+	width: 120px;
+	height: 120px;
+	display: flex;
+	flex-basis: 30%;
+	flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}	
+
+
+
+
+.button { 
+	border: 5px solid aqua;
+	width:  100px;
+	height: 100px;
+	display: flex;
+	flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    border-radius: 100px;
+    transition: 0.4s all;
+}
+
+.aqua {
+	border: 5px solid aqua;
+}
+
+.darkblue {
+	border: 5px solid darkblue;
+}
+
+.white {
+	border: 5px solid white;
+}
+
+
